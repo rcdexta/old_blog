@@ -39,11 +39,17 @@
 .social-btns .btn.linkedin .fa {
     color: #0075B2;
 }
-.social-btns .btn.skype:before {
-    background-color: #00aff0;
+.social-btns .btn.medium:before {
+    background-color: #0EB344;
 }
-.social-btns .btn.skype .fa {
-    color: #00aff0;
+.social-btns .btn.medium .fa {
+    color: #0EB344;
+}
+.social-btns .btn.stack-overflow:before {
+    background-color: #242729;
+}
+.social-btns .btn.stack-overflow .fa {
+    color: #242729;
 }
 .social-btns .btn:focus:before,
 .social-btns .btn:hover:before {
