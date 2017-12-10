@@ -1,6 +1,6 @@
 body {
-    font-family: "Helvetica", "Arial", sans-serif;
-    font-size: 16px;
+    font-family: Raleway, "Helvetica", "Arial", sans-serif;
+    font-size: 15px;
     line-height: 2;
     color: #566b78;
     width: 80%;
@@ -13,6 +13,13 @@ body {
 header {
     text-align: center;
     padding-bottom: 1em;
+}
+
+h1,h2,h3,h4,h5{
+    margin: 0;
+}
+.description{
+    margin: 5px 0px;
 }
 h2 {
     font-weight: normal;
@@ -63,4 +70,21 @@ footer a {
     background: #2CC1ED;
     color: white;
     cursor: pointer;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+}
+
+.blog > span {
+    margin-right: 20px;
+}
+
+main {
+    margin: 0px 25px;
+}
+
+#icons {
+    margin-bottom: 25px;
 }
