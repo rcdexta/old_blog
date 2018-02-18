@@ -1,13 +1,13 @@
 body {
-    font-family: Raleway, "Helvetica", "Arial", sans-serif;
+    font-family: Lato, "Helvetica", "Arial", sans-serif;
     font-size: 15px;
     line-height: 2;
-    color: #566b78;
+    color: #5a3b3b;
     width: 80%;
     max-width: 50em;
     margin: 0 auto;
     padding: 2em 1em;
-    background-color: #ecf0f1;
+    background-color: #fff;
     display: block;
 }
 header {
@@ -37,15 +37,18 @@ footer {
     margin-top: 3em;
     text-align: center;
 }
-#open-source a {
+.open-source a {
     display: inline-block;
     float: left;
 }
-#open-source img {
+.open-source .badges {
     display: inline-block;
     float: right;
     padding-right: 5px;
     padding-top: 0.25em;
+}
+.project {
+    margin: 10px 0px;
 }
 clear {
     clear: both;
