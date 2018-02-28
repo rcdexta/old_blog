@@ -64,8 +64,13 @@ footer a {
     align-items: center;
 }
 
-.blog > span {
+.blog span {
     margin-right: 20px;
+    font-size: 13px;
+}
+
+.blog a {    
+    font-size: 13px;
 }
 
 main {
